@@ -3,6 +3,12 @@
 #include <string.h>
 #include <unistd.h>
 
+/**
+ * Función que localiza la primera coincidencia dentro de un string
+ * @param primero puntero constante a la primera posición de dirección de memoria del string
+ * @param segundo caracter que debe buscar (Se especifica como int para que pueda abarcar mayor cantidad de caracteres ASCII)
+ * @return Retorna un puntero al inicio de la coincidencia si la encuentra, de lo contrario será NULL y saldrá el mensaje de error
+*/
 char *ft_strchr(const char *str, int ch)
 {
   char ch_str = (char)ch;
