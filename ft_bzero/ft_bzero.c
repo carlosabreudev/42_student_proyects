@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * Borra los datos en los n bytes de la memoria a partir de la ubicación señalada por s, escribiendo ceros (bytes que contienen '\0') en esa área.
+ * Borra los datos en los n bytes de la memoria a partir de la ubicación señalada por s, escribiendo ceros (bytes que contienen 0) en esa área.
  * Esta función es obsoleta, en vez de ella se utiliza memset()
  *  @param primero buffer que se quiere inicializar
  *  @param segundo tamaño del buffer
