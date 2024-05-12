@@ -22,8 +22,9 @@ void *ft_calloc(size_t nmemb, size_t size)
     int totBytes = nmemb * size;
     //Reservo un espacio de memoria determinado
     void *s = malloc(totBytes);
+    //Compruebo si la memoria asignada es válida
     if (s != NULL) {
-        // Limpiar la memoria reservada (establecer todos los bytes en cero)
+        // Limpio la memoria reservada (establezco todos los bytes en cero)
         ft_bzero(s, totBytes);
     }
     return s;
