@@ -45,6 +45,7 @@ char *ft_substr(char const *s, unsigned int start, size_t len)
     char *strCpy = (char *)malloc(len * sizeof(char));
     if (strCpy != NULL)
     {
+        //Hay que asegurarse que se copia además el último caracter de la cadena
         ft_strlcpy(strCpy, s + start, len + 1);
     }
         return strCpy;
