@@ -5,4 +5,7 @@
  * @param c El carácter delimitador.
  * @return El array de nuevas strings resultante de la separación. NULL si falla la reserva de memoria.
 */
-char **ft_split(char const *s, char c);
+char **ft_split(char const *s, char c)
+{
+    
+}
